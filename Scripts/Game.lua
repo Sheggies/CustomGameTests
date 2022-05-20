@@ -1,6 +1,11 @@
+dofile("./Lib/Init.lua")
 print("Game.lua loaded")
 
 Game = class(nil)
+
+function Game:__init()
+    print("Game.ctor")
+end
 
 -- Game callbacks
 

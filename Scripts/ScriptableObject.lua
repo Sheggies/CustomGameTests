@@ -2,6 +2,10 @@ print("ScriptableObject.lua loaded")
 
 ScriptableObject = class()
 
+function ScriptableObject:__init()
+    print("ScriptableObject.ctor")
+end
+
 function ScriptableObject:server_onCreate()
     print("ScriptableObject:server_onCreate()")
 end

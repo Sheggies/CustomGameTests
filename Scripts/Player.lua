@@ -2,6 +2,10 @@ print("Player.lua loaded")
 
 Player = class()
 
+function Player:__init()
+    print("Player.ctor")
+end
+
 function Player:server_onCreate()
     print("Player:server_onCreate()")
 end

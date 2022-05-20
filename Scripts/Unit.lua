@@ -2,6 +2,10 @@ print("Unit.lua loaded")
 
 Unit = class()
 
+function Unit:__init()
+    print("Unit.ctor")
+end
+
 function Unit:server_onCreate()
     print("Unit:server_onCreate()")
 end

@@ -2,6 +2,10 @@ print("Character.lua loaded")
 
 Character = class()
 
+function Character:__init()
+    print("Character.ctor")
+end
+
 -- Base class callbacks
 
 function Character:server_onCreate()

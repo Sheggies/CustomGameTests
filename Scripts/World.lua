@@ -8,6 +8,10 @@ World.cellMinY = -2
 World.cellMaxY = 1
 World.worldBorder = true
 
+function World:__init()
+    print("World.ctor")
+end
+
 function World:server_onCreate()
     print("World:server_onCreate()")
 end

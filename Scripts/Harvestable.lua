@@ -2,6 +2,10 @@ print("Harvestable.lua loaded")
 
 Harvestable = class()
 
+function Harvestable:__init()
+    print("Harvestable.ctor")
+end
+
 -- Base callbacks
 
 function Harvestable:server_onCreate()

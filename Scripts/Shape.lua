@@ -2,6 +2,10 @@ print("Shape.lua loaded")
 
 Shape = class()
 
+function Shape:__init()
+    print("Shape.ctor")
+end
+
 function Shape:server_onCreate()
     print("Shape:server_onCreate()")
 end

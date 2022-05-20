@@ -2,6 +2,10 @@ print("Tool.lua loaded")
 
 Tool = class()
 
+function Tool:__init()
+    print("Tool.ctor")
+end
+
 function Tool:server_onCreate()
     print("Tool:server_onCreate()")
 end
