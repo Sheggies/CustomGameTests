@@ -1,0 +1,14 @@
+{
+   "toolList" : [
+      {
+         "name" : "Tool",
+         "previewRenderable" : "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+         "script" : {
+            "class" : "Tool",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/Tool.lua"
+         },
+         "uuid" : "8158f51d-1e1e-43fb-af79-6e8340148424"
+      }
+   ]
+}

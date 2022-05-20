@@ -1,0 +1,18 @@
+{
+    "rotationSet" : [
+        {
+            "name" : "RotA",
+            "prop" : true,
+            "rotation" : [
+                {
+                "east" : "Y",
+                "south" : "X"
+                },
+                {
+                "east" : "Y",
+                "south" : "X"
+                }
+            ]
+        }
+    ]
+}

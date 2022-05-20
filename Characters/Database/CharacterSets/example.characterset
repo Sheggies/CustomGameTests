@@ -1,0 +1,53 @@
+{
+   "characters" : [
+      {
+         "capsule" : {
+            "height" : 1.40,
+            "radius" : 0.30
+         },
+         "character" : {
+            "data" : {},
+            "scriptClass" : "Character",
+            "scriptPath" : "$CONTENT_DATA/Scripts/Character.lua"
+         },
+         "movement" : {
+            "canSwim" : true,
+            "crouchSpeed" : 3.0,
+            "facingRotationSpeed" : 3.14150,
+            "headingRotationSpeed" : 3.14150,
+            "moveSpeed" : 4.0,
+            "slowDownSpeed" : 2.50,
+            "sprintSpeed" : 8.0
+         },
+         "renderables" : [],
+         "uuid" : "cb73936a-9ffb-4961-86ac-3b09f8c03e9a"
+      },
+      {
+         "capsule" : {
+            "height" : 1.40,
+            "radius" : 0.30
+         },
+         "character" : {
+            "data" : {},
+            "scriptClass" : "Character",
+            "scriptPath" : "$CONTENT_DATA/Scripts/Character.lua"
+         },
+         "movement" : {
+            "canSwim" : true,
+            "crouchSpeed" : 3.0,
+            "facingRotationSpeed" : 3.14150,
+            "headingRotationSpeed" : 3.14150,
+            "moveSpeed" : 4.0,
+            "slowDownSpeed" : 2.50,
+            "sprintSpeed" : 8.0
+         },
+         "renderables" : [],
+         "unit" : {
+            "data" : {},
+            "scriptClass" : "Unit",
+            "scriptPath" : "$CONTENT_DATA/Scripts/Unit.lua"
+         },
+         "uuid" : "ec3a38a2-4b18-4910-8a33-45ba8c4b3a42"
+      }
+   ]
+}
