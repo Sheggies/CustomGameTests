@@ -13,14 +13,13 @@ function Game:server_onCreate()
     print("Game:server_onCreate()")
 
     self.sv = {}
-    self.sv.saved = self.storage:load()
-    if self.sv.saved == nil then
-        self.sv.saved = {}
-        self.sv.saved.world = sm.world.createWorld("$CONTENT_DATA/Scripts/World.lua", "World")
+    self.sv.saved = self.storage:load() or { firstTimeSetup = true, world = sm.world.createWorld("$CONTENT_DATA/Scripts/World.lua", "World") }
+
+    if self.sv.saved.firstTimeSetup then
+        self.sv.saved.firstTimeSetup = false
+        sm.scriptableObject.createScriptableObject(sm.uuid.new("39016018-2aff-48f6-8242-97f58d1b97c5"))
         self.storage:save(self.sv.saved)
     end
-
-    self.scriptableObject = sm.scriptableObject.createScriptableObject(sm.uuid.new("f8e41a2a-2537-4a62-b61e-3ec379c907bb"), { a = "1", b = "2" })
 end
 
 function Game:server_onDestroy()

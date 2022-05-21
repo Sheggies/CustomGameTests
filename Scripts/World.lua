@@ -96,9 +96,7 @@ end
 
 function World:server_onProjectile(position, airTime, velocity, projectileName, shooter, damage, customData, normal, target, uuid)
     print("World:server_onProjectile()")
-    print(projectileName)
-    print(customData)
-    print(uuid)
+    sm.event.sendToScriptableObject(_G.backpackMgr, "server_projectileHitWorld", { position = position, uuid = uuid, customData = customData, world = self.world })
 end
 
 function World:server_onExplosion(center, destructionLevel)
@@ -111,9 +109,7 @@ end
 
 function World:server_onProjectileFire(position, velocity, projectileName, shooter, uuid)
     print("World:server_onProjectileFire()")
-    print(projectileName)
-    print(shooter)
-    print(uuid)
+    sm.event.sendToScriptableObject(_G.backpackMgr, "server_projectileFired", { shooter = shooter, projectileName = projectileName, uuid = uuid })
 end
 
 function World:server_onCollision(other, position, pointVelocityA, pointVelocityB, normal)
@@ -130,4 +126,11 @@ end
 
 function World:client_onCollision(other, position, pointVelocityA, pointVelocityB, normal)
     print("World:client_onCollision()")
+end
+
+-- Custom methods
+
+function World:server_spawnHarvestable(args)
+    local h = sm.harvestable.createHarvestable(args.uuid, args.position, args.rotation, args.slopeNormal)
+    h:setPublicData(args.drop)
 end

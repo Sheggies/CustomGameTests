@@ -85,7 +85,8 @@ function Player:server_onShapeRemoved(items)
 end
 
 function Player:server_onInventoryChanges(inventory, changes)
-
+    print("Player:server_onInventoryChanges()")
+    sm.event.sendToScriptableObject(_G.backpackMgr, "server_playerInventoryChanged", { player = self.player, changes = changes })
 end
 
 function Player:server_onExplosion(center, destructionLevel)
