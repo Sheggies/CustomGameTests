@@ -1,28 +1,52 @@
 {
-   "partList" : [
-      {
-         "color" : "FF0000",
-         "flammable" : false,
-         "name" : "Shape",
-         "physicsMaterial" : "Default",
-         "ratings" : {
-            "buoyancy" : 1,
-            "density" : 1,
-            "durability" : 1,
-            "friction" : 1
-         },
-         "renderable" : "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
-         "rotationSet" : "Default",
-         "scripted" : {
-            "classname" : "Shape",
-            "data" : {},
-            "filename" : "$CONTENT_DATA/Scripts/Shape.lua"
-         },
-         "showInInventory" : true,
-         "sphere" : {
-            "diameter" : 1
-         },
-         "uuid" : "654a046f-3510-490b-92f7-220aeb171a3a"
-      }
-   ]
+    "partList": [
+        {
+            "color": "FF0000",
+            "flammable": false,
+            "name": "Shape",
+            "physicsMaterial": "Default",
+            "ratings": {
+                "buoyancy": 1,
+                "density": 1,
+                "durability": 1,
+                "friction": 1
+            },
+            "renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+            "rotationSet": "Default",
+            "scripted": {
+                "classname": "Shape",
+                "data": {},
+                "filename": "$CONTENT_DATA/Scripts/Shape.lua"
+            },
+            "showInInventory": true,
+            "sphere": {
+                "diameter": 1
+            },
+            "uuid": "654a046f-3510-490b-92f7-220aeb171a3a"
+        },
+        {
+            "color": "FFA0F0",
+            "flammable": false,
+            "name": "BackpackShape",
+            "physicsMaterial": "Default",
+            "ratings": {
+                "buoyancy": 1,
+                "density": 1,
+                "durability": 1,
+                "friction": 1
+            },
+            "renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+            "rotationSet": "Default",
+            "scripted": {
+                "classname": "BackpackShape",
+                "data": {},
+                "filename": "$CONTENT_DATA/Scripts/Backpack/BackpackShape.lua"
+            },
+            "showInInventory": true,
+            "sphere": {
+                "diameter": 1
+            },
+            "uuid": "5b1cef4a-784b-4bb0-a876-60d56d928fdb"
+        }
+    ]
 }
