@@ -9,6 +9,17 @@
             "file" : "$CONTENT_DATA/Scripts/Tool.lua"
          },
          "uuid" : "8158f51d-1e1e-43fb-af79-6e8340148424"
-      }
+      },
+      {
+        "name" : "BackpackTool",
+        "color": "BFA0F0",
+        "previewRenderable" : "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+        "script" : {
+           "class" : "BackpackTool",
+           "data" : {},
+           "file" : "$CONTENT_DATA/Scripts/Backpack/BackpackTool.lua"
+        },
+        "uuid" : "b1953d36-6868-4170-a7fd-861628c6eac1"
+     }
    ]
 }
