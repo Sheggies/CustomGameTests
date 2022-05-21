@@ -1,16 +1,30 @@
 {
-   "harvestableList" : [
-      {
-         "mass" : 10000.0,
-         "material" : "Default",
-         "name" : "Harvestable",
-         "renderable" : "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
-         "script" : {
-            "class" : "Harvestable",
-            "data" : {},
-            "file" : "$CONTENT_DATA/Scripts/Harvestable.lua"
-         },
-         "uuid" : "7f76e9ab-d7d7-4a83-8c6c-d0457b81362c"
-      }
-   ]
+    "harvestableList": [
+        {
+            "mass": 10000.0,
+            "material": "Default",
+            "name": "Harvestable",
+            "renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+            "script": {
+                "class": "Harvestable",
+                "data": {},
+                "file": "$CONTENT_DATA/Scripts/Harvestable.lua"
+            },
+            "uuid": "7f76e9ab-d7d7-4a83-8c6c-d0457b81362c",
+            "removable": true
+        },
+        {
+            "mass": 10000.0,
+            "material": "Default",
+            "name": "BackpackHarvestable",
+            "renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+            "script": {
+                "class": "BackpackHarvestable",
+                "data": {},
+                "file": "$CONTENT_DATA/Scripts/Backpack/BackpackHarvestable.lua"
+            },
+            "uuid": "b4fd8b2d-5c2c-4994-b445-3fb7932e87f1",
+            "removable": true
+        }
+    ]
 }
