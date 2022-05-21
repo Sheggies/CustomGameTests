@@ -1,10 +1,16 @@
 {
-   "scriptableObjectList" : [
-      {
-         "classname" : "ScriptableObject",
-         "filename" : "$CONTENT_DATA/Scripts/ScriptableObject.lua",
-         "name" : "ScriptableObject",
-         "uuid" : "f8e41a2a-2537-4a62-b61e-3ec379c907bb"
-      }
-   ]
+    "scriptableObjectList": [
+        {
+            "classname": "ScriptableObject",
+            "filename": "$CONTENT_DATA/Scripts/ScriptableObject.lua",
+            "name": "ScriptableObject",
+            "uuid": "f8e41a2a-2537-4a62-b61e-3ec379c907bb"
+        },
+        {
+            "classname": "BackpackManager",
+            "filename": "$CONTENT_DATA/Scripts/Backpack/BackpackManager.lua",
+            "name": "BackpackManager",
+            "uuid": "39016018-2aff-48f6-8242-97f58d1b97c5"
+        }
+    ]
 }
