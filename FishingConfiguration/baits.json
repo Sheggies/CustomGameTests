@@ -1,0 +1,14 @@
+{
+    "d7d7b969-8bc5-405b-9371-1459eedf585f": {
+        "name": "Bait A",
+        "biteSize": 0.2
+    },
+    "1a065f5e-cf99-422a-b99e-0698f4c9f74a": {
+        "name": "Bait B",
+        "biteSize": 0.5
+    },
+    "790d318f-a355-4b5b-8301-5912f720be39": {
+        "name": "Bait C",
+        "biteSize": 1
+    }
+}

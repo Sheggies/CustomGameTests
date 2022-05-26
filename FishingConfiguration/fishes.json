@@ -1,0 +1,39 @@
+{
+    "63aa58fa-b8a0-416d-aee9-015ff2bb4190": {
+        "name": "Fish A",
+        "defaultLureChance": 0.1,
+        "defaultBiteSize": 0.5,
+        "baits": {
+            "d7d7b969-8bc5-405b-9371-1459eedf585f": {
+                "lureChance": 1,
+                "biteSize": 1
+            },
+            "790d318f-a355-4b5b-8301-5912f720be39": {
+                "lureChance": 0.2,
+                "biteSize": 1
+            }
+        }
+    },
+    "b3272a98-994f-4215-b301-6ab05c1d2600": {
+        "name": "Fish B",
+        "defaultLureChance": 0.1,
+        "defaultBiteSize": 0.3,
+        "baits": {
+            "d7d7b969-8bc5-405b-9371-1459eedf585f": {
+                "lureChance": 0.1,
+                "biteSize": 1
+            }
+        }
+    },
+    "dd093766-64c5-4d13-a94a-01e4c8aa518f": {
+        "name": "Fish C",
+        "defaultLureChance": 0.1,
+        "defaultBiteSize": 0.4,
+        "baits": {
+            "1a065f5e-cf99-422a-b99e-0698f4c9f74a": {
+                "lureChance": 0.4,
+                "biteSize": 1
+            }
+        }
+    }
+}

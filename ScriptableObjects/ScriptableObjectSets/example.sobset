@@ -5,6 +5,12 @@
             "filename": "$CONTENT_DATA/Scripts/ScriptableObject.lua",
             "name": "ScriptableObject",
             "uuid": "f8e41a2a-2537-4a62-b61e-3ec379c907bb"
+        },
+        {
+            "filename": "$CONTENT_DATA/Scripts/game/FishingSystem/FishingSystem.lua",
+            "classname": "FishingSystem",
+            "name": "FishingSystem",
+            "uuid": "3e30e9d8-bd4c-48e5-9c08-a9082aacef02"
         }
     ]
 }
