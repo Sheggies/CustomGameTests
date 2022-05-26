@@ -1,8 +1,8 @@
 {
-    "harvestableSetList" : [
+    "harvestableSetList": [
         {
-            "categories" : [],
-            "name" : "$CONTENT_DATA/Harvestables/Database/HarvestableSets/example.harvestableset"
+            "categories": [],
+            "name": "$CONTENT_DATA/Harvestables/Database/HarvestableSets/example.harvestableset"
         }
     ]
 }

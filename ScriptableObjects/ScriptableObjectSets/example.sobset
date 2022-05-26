@@ -1,10 +1,10 @@
 {
-   "scriptableObjectList" : [
-      {
-         "classname" : "ScriptableObject",
-         "filename" : "$CONTENT_DATA/Scripts/ScriptableObject.lua",
-         "name" : "ScriptableObject",
-         "uuid" : "f8e41a2a-2537-4a62-b61e-3ec379c907bb"
-      }
-   ]
+    "scriptableObjectList": [
+        {
+            "classname": "ScriptableObject",
+            "filename": "$CONTENT_DATA/Scripts/ScriptableObject.lua",
+            "name": "ScriptableObject",
+            "uuid": "f8e41a2a-2537-4a62-b61e-3ec379c907bb"
+        }
+    ]
 }

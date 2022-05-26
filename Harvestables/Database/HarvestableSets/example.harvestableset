@@ -1,16 +1,16 @@
 {
-   "harvestableList" : [
-      {
-         "mass" : 10000.0,
-         "material" : "Default",
-         "name" : "Harvestable",
-         "renderable" : "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
-         "script" : {
-            "class" : "Harvestable",
-            "data" : {},
-            "file" : "$CONTENT_DATA/Scripts/Harvestable.lua"
-         },
-         "uuid" : "7f76e9ab-d7d7-4a83-8c6c-d0457b81362c"
-      }
-   ]
+    "harvestableList": [
+        {
+            "mass": 10000.0,
+            "material": "Default",
+            "name": "Harvestable",
+            "renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_template.rend",
+            "script": {
+                "class": "Harvestable",
+                "data": {},
+                "file": "$CONTENT_DATA/Scripts/Harvestable.lua"
+            },
+            "uuid": "7f76e9ab-d7d7-4a83-8c6c-d0457b81362c"
+        }
+    ]
 }

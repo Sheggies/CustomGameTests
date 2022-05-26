@@ -1,16 +1,16 @@
 {
-    "rotationSet" : [
+    "rotationSet": [
         {
-            "name" : "RotA",
-            "prop" : true,
-            "rotation" : [
+            "name": "RotA",
+            "prop": true,
+            "rotation": [
                 {
-                "east" : "Y",
-                "south" : "X"
+                    "east": "Y",
+                    "south": "X"
                 },
                 {
-                "east" : "Y",
-                "south" : "X"
+                    "east": "Y",
+                    "south": "X"
                 }
             ]
         }
